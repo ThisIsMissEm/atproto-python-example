@@ -1,0 +1,14 @@
+[project]
+name = "atproto-python-example"
+version = "0.0.0" # This is a placeholder. Dynamic version from Git Tag will be used.
+description = "Example of the atproto python library doing handle resolution"
+authors = [{ name = "Emelia Smith", email = "ThisIsMissEm@users.noreply.github.com" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "atproto==0.0.63",
+  "maskpass"
+]
+[project.urls]
+Repository = "https://github.com/thisismissem/atproto-python-example"
