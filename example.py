@@ -19,7 +19,7 @@ def main():
     resolver = IdResolver()
     did = resolver.handle.resolve(handle)
     if did is None:
-      print("Unable to resolve handle: %s", handle)
+      print("Unable to resolve handle: %s" % handle)
       exit(1)
 
     did_doc = resolver.did.resolve_atproto_data(did)
